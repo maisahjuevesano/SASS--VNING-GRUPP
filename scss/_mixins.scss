@@ -1,0 +1,93 @@
+@mixin border{
+    border: pink 1px solid;
+} 
+
+@mixin border-secondary {
+    border: 1px solid blue;
+}
+
+@mixin table {
+    background-color: pink;
+    
+}
+
+@mixin list {
+    list-style-type: square;
+    background-color: coral;
+}
+
+@mixin list-second{
+    list-style-type: disc;
+    background-color: darkcyan;
+    font-size: 20px;
+}
+
+@mixin div-10 {
+    display: flex;
+    
+}
+
+// @mixin div {
+//     height: 300px;
+//     width: 2000px; Det blir en side-scroll när divarna är jättestora bredvid varann.
+//     border: 1px solid red;
+// }
+
+@mixin div-second {
+    height: 300px;
+    width: 300px;
+    border: blue 1px solid;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@mixin div-third {
+    height: 100px;
+    width: 100px;
+    border: 3px solid purple;
+    position: absolute;
+
+}
+
+@mixin tio {
+    width: 300px;
+    height: 300px;
+    border: green 2px dashed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@mixin blomma {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin blom-bild {
+    width: 100px;
+    height: 100px;
+}
+
+@mixin fyrkant {
+    width: 500px;
+    height: 500px;
+    border: 2px solid pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin cirkel {
+    width: 200px;
+    height: 200px;
+    border: 3px solid blue;
+    border-radius: 50%;
+}

@@ -1,0 +1,19 @@
+.original {
+    background-color: pink;
+    padding: 5px;
+
+    &:hover {
+        background-color: white;
+    }
+
+}
+
+.new {
+    background-color: blue;
+    padding: 10px;
+    color: white;
+
+    &:hover {
+        cursor: pointer;
+    }
+}

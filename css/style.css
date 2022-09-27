@@ -1,0 +1,110 @@
+@charset "UTF-8";
+.original {
+  background-color: pink;
+  padding: 5px;
+}
+.original:hover {
+  background-color: white;
+}
+
+.new {
+  background-color: blue;
+  padding: 10px;
+  color: white;
+}
+.new:hover {
+  cursor: pointer;
+}
+
+sections {
+  background-color: aqua;
+}
+
+.first-div {
+  height: 200px;
+  width: 200px;
+  border: pink 1px solid;
+  padding: 50px;
+}
+
+.second-div {
+  height: 100px;
+  width: 100px;
+  border: 1px solid blue;
+  margin: 50px;
+}
+
+tr:nth-child(even) {
+  background-color: pink;
+}
+
+.frukter {
+  list-style-type: square;
+  background-color: coral;
+}
+
+.grönsaker {
+  list-style-type: disc;
+  background-color: darkcyan;
+  font-size: 20px;
+}
+
+.div-10 {
+  display: flex;
+}
+
+.nio {
+  height: 300px;
+  width: 300px;
+  border: blue 1px solid;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.mini-nio {
+  height: 100px;
+  width: 100px;
+  border: 3px solid purple;
+  position: absolute;
+}
+
+.tio {
+  width: 300px;
+  height: 300px;
+  border: green 2px dashed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blomma {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blomma img {
+  width: 100px;
+  height: 100px;
+}
+
+.fyrkant {
+  width: 500px;
+  height: 500px;
+  border: 2px solid pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fyrkant .cirkel {
+  width: 200px;
+  height: 200px;
+  border: 3px solid blue;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,69 @@
+@use "button";
+@use "mixins";
+
+sections {
+    background-color: aqua;
+
+}
+
+.first-div {
+    height: 200px;
+    width: 200px;
+    @include mixins.border;
+    padding: 50px;
+}
+
+.second-div {
+    height: 100px;
+    width: 100px;
+    @include mixins.border-secondary;
+    margin: 50px;
+}
+
+tr:nth-child(even) {
+    @include mixins.table;
+}
+
+.frukter{
+    @include mixins.list;
+}
+
+.grönsaker{
+    @include mixins.list-second;
+}
+
+// div {
+//     @include mixins.div;
+// }
+
+.div-10{
+    @include mixins.div-10;
+}
+
+.nio {
+    @include mixins.div-second;
+}
+
+.mini-nio {
+    @include mixins.div-third;
+}
+
+.tio {
+    @include mixins.tio;
+}
+
+.blomma {
+    @include mixins.blomma;
+
+    img {
+        @include mixins.blom-bild;
+    }
+}
+
+.fyrkant {
+    @include mixins.fyrkant;
+
+    .cirkel {
+        @include mixins.cirkel;
+    }
+}
